@@ -2,10 +2,10 @@ body {
     color: #1e07e9;
  background-color: black;
 }
-img{(thumba up.png)
- margin-top: 2000px /* Moves the image down by 20 pixels */
-  margin-left: 10px; /* Moves the image right by 10 pixels */
-{
+.thumba up.png {
+    transform: translate(50px, 20px); /* Moves the image 50px right and 20px down */
+}
+
 
 
 
