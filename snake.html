@@ -49,8 +49,19 @@ var apple = {
   x: 320,
   y: 320
 };
-// the players score displayed
-document.write(apple)
+
+  // test to see if this method works for scor display
+  function updateScore() {
+  // Get the HTML element by its ID
+  var scoreElement = document.getElementById("score");
+  // Update its content with the current score
+  scoreElement.innerText = maxCells;
+}
+
+// Call the function initially to display the starting score
+updateScore();
+
+
 
 
   
