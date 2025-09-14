@@ -50,13 +50,7 @@ var apple = {
   y: 320
 };
 
-  // test to see if this method works for scor display
-  function updateScore() {
-  // Get the HTML element by its ID
-  var scoreElement = document.getElementById("score");
-  // Update its content with the current score
-  scoreElement.innerText = maxCells;
-}
+ 
 
 // Call the function initially to display the starting score
 updateScore();
@@ -125,9 +119,7 @@ function loop() {
     // snake ate apple
     if (cell.x === apple.x && cell.y === apple.y) {
       snake.maxCells++;
-// test to see if method for showing score works
-      maxCells++;
-      updateScore();
+
       
       // canvas is 400x400 which is 25x25 grids
       apple.x = getRandomInt(0, 25) * grid;
