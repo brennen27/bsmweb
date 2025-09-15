@@ -73,7 +73,7 @@ const startGame = (difficulty) => {
             gameSpeed = 125; // Medium speed
             break;
         case 'hard':
-            gameSpeed = 75; // Faster speed for hard
+            gameSpeed = 70; // Faster speed for hard
             break;
     }
 
